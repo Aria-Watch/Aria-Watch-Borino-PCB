@@ -99,6 +99,17 @@ The firmware lights the status LED **🟢 below 1000 ppm of CO₂**, **🟠 from
 
 The PMS5003 sensor and its cable are optional and connect to MOLEX_1.
 
+## Known issues
+
+These are left as they are in V0.5, as part of the project's history. Worth fixing if you make a new revision:
+
+- **No 5.1 kΩ pull-down resistors on the USB-C CC pins.** USB-C chargers and ports connected with a C-to-C cable will not turn on the 5 V supply. Use a **USB-A to USB-C cable** to power and flash the board.
+- **No input capacitor on the AMS1117 5 V input**, and **no RC delay on the ESP32 EN pin** (it is tied directly to 3.3 V). The board works without them, but both are recommended by the datasheets.
+- **The schematic leaves USB-C pins B6/B7 unconnected**, while the PCB correctly ties them to D+/D−, so USB works with the plug in either orientation. Update the schematic before your next revision.
+- **DRC reports only cosmetic and manufacturing warnings**: small silkscreen text, the 0.2 mm thermal vias of the standard ESP32-S3 footprint, and two mounting holes near the antenna keep-out area. The board has been manufactured and works as it is.
+
+No shorts: KiCad's design rule check finds no copper touching between different nets and no unconnected pads, and the board's connections match the schematic pin by pin. Earlier revisions had two shorts near the USB-C connector, fixed since January 2025.
+
 ## Open the project
 
 The design is made with **[KiCad 9](https://www.kicad.org/)**. Open `AriaWatch-V5.kicad_pro`.
