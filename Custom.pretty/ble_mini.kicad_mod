@@ -1,0 +1,91 @@
+(footprint "ble"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.0 -0.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f2bfab2a-5e0d-4651-a094-625763f4b805")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.010000000000000002)
+			)
+		)
+	)
+	(property "Value" "ble"
+		(at 0.0 0.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "00fbd9c7-f6b0-43ad-b81a-93209f25fa0c")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.0 0.0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0e9a793-f78a-4218-b32d-3d0d5f9d96b0")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.0 0.0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f0572e6-7a81-4cc0-82a0-0c16e7868909")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0.5586625 -0.52625) (xy 0.5586625 -0.3075782) (xy 0.1293708 -0.05) (xy 0.5586625 0.20757720000000002) (xy 0.5586625 0.42625)
+			(xy 0.0647786 0.7966666) (xy -0.18216540000000003 0.7966666) (xy -0.18216540000000003 0.5585417) (xy 0.0295012 0.5585417) (xy 0.3418101 0.3243114)
+			(xy 0.0295012 0.1369217) (xy 0.0295012 0.5585417) (xy -0.18216540000000003 0.5585417) (xy -0.18216540000000003 0.1212415) (xy -0.6640023 0.3621573)
+			(xy -0.7586624 0.17284270000000002) (xy -0.3129829 -0.05) (xy -0.7586624 -0.2728394) (xy -0.6640023 -0.4621605) (xy -0.18216540000000003 -0.2212415)
+			(xy -0.18216540000000003 -0.23692180000000002) (xy 0.0295012 -0.23692180000000002) (xy 0.3418101 -0.4243081) (xy 0.0295012 -0.6585416000000001)
+			(xy 0.0295012 -0.23692180000000002) (xy -0.18216540000000003 -0.23692180000000002) (xy -0.18216540000000003 -0.8966666000000001) (xy 0.0647786 -0.8966666000000001)
+		)
+		(stroke
+			(width -1e-07)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "27bef3cd-608c-427a-b90f-34e960591cbe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.0 0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "46198cca-ff1b-4b56-a7af-83509f4cf73c")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+		)
+	)
+	(group ""
+		(uuid "3af6e70e-eefc-43b3-b816-916ba19bd381")
+		(members "27bef3cd-608c-427a-b90f-34e960591cbe")
+	)
+	(embedded_fonts no)
+)

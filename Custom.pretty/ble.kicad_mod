@@ -1,0 +1,91 @@
+(footprint "ble"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f2bfab2a-5e0d-4651-a094-625763f4b805")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ble"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "00fbd9c7-f6b0-43ad-b81a-93209f25fa0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0e9a793-f78a-4218-b32d-3d0d5f9d96b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f0572e6-7a81-4cc0-82a0-0c16e7868909")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 5.586625 -5.2625) (xy 5.586625 -3.075782) (xy 1.293708 -0.5) (xy 5.586625 2.075772) (xy 5.586625 4.2625)
+			(xy 0.647786 7.966666) (xy -1.821654 7.966666) (xy -1.821654 5.585417) (xy 0.295012 5.585417) (xy 3.418101 3.243114)
+			(xy 0.295012 1.369217) (xy 0.295012 5.585417) (xy -1.821654 5.585417) (xy -1.821654 1.212415) (xy -6.640023 3.621573)
+			(xy -7.586624 1.728427) (xy -3.129829 -0.5) (xy -7.586624 -2.728394) (xy -6.640023 -4.621605) (xy -1.821654 -2.212415)
+			(xy -1.821654 -2.369218) (xy 0.295012 -2.369218) (xy 3.418101 -4.243081) (xy 0.295012 -6.585416)
+			(xy 0.295012 -2.369218) (xy -1.821654 -2.369218) (xy -1.821654 -8.966666) (xy 0.647786 -8.966666)
+		)
+		(stroke
+			(width -0.000001)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "27bef3cd-608c-427a-b90f-34e960591cbe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "46198cca-ff1b-4b56-a7af-83509f4cf73c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(group ""
+		(uuid "3af6e70e-eefc-43b3-b816-916ba19bd381")
+		(members "27bef3cd-608c-427a-b90f-34e960591cbe")
+	)
+	(embedded_fonts no)
+)

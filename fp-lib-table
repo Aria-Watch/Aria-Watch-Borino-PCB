@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Custom")(type "KiCad")(uri "${KIPRJMOD}/Custom.pretty")(options "")(descr "Aria Watch silkscreen icons"))
+  (lib (name "AriaWatchLib")(type "KiCad")(uri "${KIPRJMOD}/AriaWatchLib.pretty")(options "")(descr "Aria Watch logo"))
+)

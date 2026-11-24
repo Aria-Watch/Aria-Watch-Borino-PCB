@@ -1,0 +1,13 @@
+# KiCad backups, caches and local state
+*-backups/
+*.lck
+~*.lck
+fp-info-cache
+*.kicad_prl
+_autosave-*
+*.bak
+*-bak
+
+# Exports you can regenerate from the project
+*.wrl
+Gerber/
